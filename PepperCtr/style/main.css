@@ -1,0 +1,141 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.header{
+    margin:0;
+    padding:10px;
+    max-height:100px;
+    max-width:100%;
+    background-color:#395475;
+}
+.header-logo{
+    vertical-align:middle;
+    margin-right:30px;
+}
+.header h1 {
+        margin: 0;
+        color: azure;
+        font-size: 50px;
+        font-family: 'Baloo Tammudu', cursive;
+    }
+
+body {
+    margin:0;
+    padding:0;
+    background-color:#e0e0e0;
+
+}
+
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    color: #395475;
+}
+.ip,.words{
+    margin-left:20px;
+}
+
+input{
+    height:30px;
+    width:110px;
+    border:none;
+    vertical-align:bottom;
+    font-size:20px;
+}
+.conect {
+    padding:5px;
+    height:30px;
+    width:100px;
+    font-size: 20px;
+    border: none;
+    background-color: #395475;
+    color:azure;
+}
+
+.words-box{
+    width:80%;
+    padding:10px;
+    border:none;
+    font-size:20px;
+    vertical-align:middle;
+}
+.enter {
+    margin-left:20px;
+    margin-top:15px;
+    font-size: 20px;
+    border:none;
+    background-color:#395475;
+    height:89px;
+    width:10%;
+    color:azure;
+}
+
+.col{
+    float:left;
+    width:45%;
+    margin-left:4%;
+}
+.cols:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+img[id="advance"]{
+    margin-left:130px;
+    transform:rotate(90deg);
+}
+img[id="left"]{
+    margin-left:10px;
+}
+img[id="right"]{
+    margin-left:100px;
+    transform:rotate(180deg);
+}
+img[id="turnL"]{
+    margin-left:10px;
+    height:120%;
+    width:auto;
+}
+img[id="retreat"]{
+    margin-left:50px;
+    transform:rotate(-90deg);
+}
+img[id="turnR"] {
+    margin-left: 40px;
+    transform:rotateY(180deg);
+    height:120%;
+    width:auto;
+}
+.cmdButton{
+
+}
+button[name="cmd1"],button[name="cmd2"],button[name="cmd3"]{
+    padding: 10px;
+    height: 90px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    background-color: #395475;
+    color: azure;
+}
+.cmdButton Buttons{
+    max-height:100px;
+    max-width:200px;
+    border:none;
+    color:azure;
+}
+
+.footer {
+    margin: 0;
+    padding: 10px;
+    max-height: 100px;
+    max-width: 100%;
+    background-color: #395475;
+}
+.f{
+    text-align:center;
+    font-size:12px;
+    color:azure;
+}

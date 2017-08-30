@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PepperCtr", "PepperCtr\PepperCtr.csproj", "{50520828-E8CE-42C7-AA85-396FF986B67F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50520828-E8CE-42C7-AA85-396FF986B67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50520828-E8CE-42C7-AA85-396FF986B67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50520828-E8CE-42C7-AA85-396FF986B67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50520828-E8CE-42C7-AA85-396FF986B67F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7492346E-AFCF-44BD-97D6-C309EEF547C8}
+	EndGlobalSection
+EndGlobal
