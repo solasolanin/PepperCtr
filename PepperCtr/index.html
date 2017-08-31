@@ -13,15 +13,16 @@
     <br />
     <div class="ip">
         <div class="text"><h2>IP Address</h2></div>
+        <div class="connected" style="color:red">
+            <span class="connectedText">No Signal</span>
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </div>
         <nobr><h1>
-            <input type="number" id="ip1" />.
-            <input type="number" id="ip2" />.
-            <input type="number" id="ip3" />.
-            <input type="number" id="ip4" />
+            <input type="number" id="ip1" />
         <button class="conect">Connect</button></h1></nobr>
     </div>
     <div class="words">
-        <div class="text"><h2>Text Box</h2></div>            
+        <div class="text"><h2>Text Message</h2></div>            
             <textarea class="words-box" rows="3">Imput some words</textarea>
             <button class="enter">apply</button>
     </div>
@@ -46,11 +47,13 @@
             <div class="col">
 
                 <div class="cmdButton">
-                    <div class="text"><h2>Command Box</h2></div>
+                    <div class="text"><h2>Autonomous Life Mode</h2></div>
                     <div class="Buttons">
-                        <button name="cmd1" style="margin-top:10px">Command #1</button><br />
-                        <button name="cmd2" style="margin-top:10px">Command #2</button><br />
-                        <button name="cmd3" style="margin-top:10px">Command #3</button><br />
+                        <button name="cmd1" style="margin-top:10px">On</button>
+                        <button name="cmd2" style="margin-top:10px;margin-left:20px;">Off</button>
+                    <div class="text"><h2>Wakw Up / Rest</h2></div>
+                        <button name="cmd3" style="margin-top:10px">Wake Up</button>
+                        <button name="cmd4" style="margin-top:10px;margin-left:20px;">Rest</button>
                     </div>
                 </div>
 

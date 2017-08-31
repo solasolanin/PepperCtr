@@ -5,7 +5,7 @@
 .header{
     margin:0;
     padding:10px;
-    max-height:100px;
+    max-height:90px;
     max-width:100%;
     background-color:#395475;
 }
@@ -38,7 +38,7 @@ body {
 
 input{
     height:30px;
-    width:110px;
+    width:500px;
     border:none;
     vertical-align:bottom;
     font-size:20px;
@@ -108,24 +108,17 @@ img[id="turnR"] {
     height:120%;
     width:auto;
 }
-.cmdButton{
 
-}
-button[name="cmd1"],button[name="cmd2"],button[name="cmd3"]{
+button[name="cmd1"], button[name="cmd2"], button[name="cmd3"], button[name="cmd4"] {
     padding: 10px;
-    height: 90px;
-    width: 200px;
-    font-size: 20px;
+    height: 70px;
+    width: 140px;
+    font-size: 30px;
     border: none;
     background-color: #395475;
     color: azure;
 }
-.cmdButton Buttons{
-    max-height:100px;
-    max-width:200px;
-    border:none;
-    color:azure;
-}
+
 
 .footer {
     margin: 0;
