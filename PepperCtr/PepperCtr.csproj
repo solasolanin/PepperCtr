@@ -76,6 +76,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="lib\qimessaging\1.0\jquery.min.js" />
+    <Content Include="lib\qimessaging\1.0\qimessaging.js" />
+    <Content Include="lib\qimessaging\1.0\socket.io.min.js" />
+    <Content Include="lib\qimessaging\2\qimessaging.js" />
     <Content Include="style\main.css" />
     <Content Include="style\picture\arrow.png" />
     <Content Include="style\picture\arrow2.png" />
