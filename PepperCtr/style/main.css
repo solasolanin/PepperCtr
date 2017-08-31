@@ -109,7 +109,8 @@ img[id="turnR"] {
     width:auto;
 }
 
-button[name="cmd1"], button[name="cmd2"], button[name="cmd3"], button[name="cmd4"] {
+button[name="cmd1"], button[name="cmd2"], button[name="cmd3"], 
+button[name="cmd4"], button[name="cmd5"], button[name="cmd6"] {
     padding: 10px;
     height: 70px;
     width: 140px;
