@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="js\control.js" />
     <Content Include="lib\qimessaging\1.0\jquery.min.js" />
     <Content Include="lib\qimessaging\1.0\qimessaging.js" />
     <Content Include="lib\qimessaging\1.0\socket.io.min.js" />
@@ -89,6 +90,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
