@@ -60,13 +60,14 @@ input{
     font-size:20px;
     vertical-align:middle;
 }
-.enter {
+
+.apply{
     margin-left:20px;
-    margin-top:15px;
+    margin-top:5px;
     font-size: 20px;
     border:none;
     background-color:#395475;
-    height:89px;
+    height:50px;
     width:10%;
     color:azure;
 }

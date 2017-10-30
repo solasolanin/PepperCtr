@@ -6,12 +6,6 @@ function connect() {
 
     //A variable is set as a proxy
     var setupIns_ = function () {
-        self.qims.service("ALMemory").done(function (ins) {
-            self.alMemory = ins;
-
-            //メモリー監視
-            qimessagingMemorySubscribe();
-        });
 
         self.qims.service("ALTextToSpeech").done(function (ins) {
             self.alTextToSpeech = ins;
@@ -33,6 +27,13 @@ function connect() {
             self.alAudioDevice.getOutputVolume().done(function (val) {
                 self.showAudioVolume(val);
             });
+        });
+
+        self.qims.service("ALMemory").done(function (ins) {
+            self.alMemory = ins;
+
+            //メモリー監視
+            qimessagingMemorySubscribe();
         });
     }
     //Connect to Pepper

@@ -12,22 +12,29 @@
 <body>
     <div class="header" >
         <nobr> <h1><img src="style/picture/pepper_ai.png" class="header-logo" />Remort Pepper Controller</h1></nobr>
-        
     </div>
-    <br />
+
     <div class="ip">
         <div class="text"><h2>IP Address</h2></div>
         <div class="connected" style="color:red">
             <span class="connectedText">No Signal</span>
         </div>
-        <nobr><h1>
+        <nobr>
             <input type="number" id="ip1" value=""/>
-        <button class="conect" onclick="connect()">Connect</button></h1></nobr>
+            <button class="apply" onclick="connect()">Connect</button>
+            <button onclick="hello()" class="apply">Hello</button>
+        </nobr>
+    </div>
+
+    <div class="row">
+    
     </div>
     <div class="words">
-        <div class="text"><h2>Text Message</h2></div>            
-            <textarea class="words-box" rows="3" id="sayText">Imput some words</textarea>
-            <button class="enter" onclick="say()">apply</button>
+        <div class="text-box">
+            <div class="text"><h2>Text Message</h2></div>            
+            <textarea class="words-box" rows="2" id="sayText">Imput some words</textarea>
+            <button class="apply" onclick="say()">apply</button>
+        </div>
     </div>
 
     <br />
@@ -58,8 +65,8 @@
                         <button name="cmd3" style="margin-top:10px" onclick="sleepSwitch(true)">Wake Up</button>
                         <button name="cmd4" style="margin-top:10px;margin-left:20px;"onclick="sleepSwitch(false)">Rest</button>
                     <div class="text"><h2>Behavior</h2></div>
-                        <button name="cmd5" style="margin-top:10px" onclick="action(0)">Command#1</button>
-                        <button name="cmd6" style="margin-top:10px;margin-left:20px;"onclick="(1)">Command#2</button>
+                        <button name="cmd5" style="margin-top:10px" onclick="action(0)">Cmd#1</button>
+                        <button name="cmd6" style="margin-top:10px;margin-left:20px;"onclick="(1)">Cmd#2</button>
                     <div class="text"><h2>ALMemory Event</h2></div>
                         <button name="almemory" style="margin-top:10px"onclick="qimessagingMemoryEvent()">PepperQiMessaging/Hey</button><br />
                         <font color="#395475"> Pepper : <span class="memory"></span></font>
